@@ -1,0 +1,2368 @@
+<?xml version="1.0"?>
+<monita>
+  <object struct="obj_header" id="halaman SWD-1">
+    <property name="version">0.1</property>
+    <property name="title">halaman SWD-1</property>
+    <property name="date">30-06-2010</property>
+    <property name="author">Iqbal</property>
+    <property name="approval">Herry Susanto</property>
+    <property name="note">PLTD Kayu Merah</property>
+  </object>
+  <object struct="obj_body" id="body halaman SWD-1">
+    <property name="bg_width">1200</property>
+    <property name="bg_height">650</property>
+    <property name="bg_image">background.png</property>
+    <child>
+      <object struct="color_rgba" id="bg_color">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="judul outline">
+    <property name="caption">judul outline</property>
+    <property name="width">1</property>
+    <property name="points_count">5</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">150</property>
+        <property name="g">150</property>
+        <property name="b">150</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">5</property>
+        <property name="y">5</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">1195</property>
+        <property name="y">5</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">1195</property>
+        <property name="y">45</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">5</property>
+        <property name="y">45</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">5</property>
+        <property name="y">5</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_gambar" id="logo PLN">
+    <property name="caption">logo PLN</property>
+    <property name="source">png/pln.png</property>
+    <property name="width">100</property>
+    <property name="height">100</property>
+    <property name="skala">1.0</property>
+    <property name="keterangan">keterangan gambar</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">10</property>
+        <property name="y">10</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="pt pln">
+    <property name="isi_teks">PT PLN (Persero) Wilayah Maluku</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">40</property>
+        <property name="y">25</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">100</property>
+        <property name="g">150</property>
+        <property name="b">255</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="alamat">
+    <property name="isi_teks">PLTD Kayu Merah, Jl kutilang no. 22A, Ambon</property>
+    <property name="size">12</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">40</property>
+        <property name="y">37</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="judul batas1">
+    <property name="caption">judul batas1</property>
+    <property name="width">1</property>
+    <property name="points_count">2</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">150</property>
+        <property name="g">150</property>
+        <property name="b">150</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">350</property>
+        <property name="y">5</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">350</property>
+        <property name="y">45</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="judul batas2">
+    <property name="caption">judul batas2</property>
+    <property name="width">1</property>
+    <property name="points_count">2</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">150</property>
+        <property name="g">150</property>
+        <property name="b">150</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">850</property>
+        <property name="y">5</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">850</property>
+        <property name="y">45</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_gambar" id="home">
+    <property name="caption">home</property>
+    <property name="source">png/home.png</property>
+    <property name="width">100</property>
+    <property name="height">100</property>
+    <property name="skala">1.0</property>
+    <property name="keterangan">keterangan gambar</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">1160</property>
+        <property name="y">10</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_gambar" id="next">
+    <property name="caption">next</property>
+    <property name="source">png/next.png</property>
+    <property name="width">100</property>
+    <property name="height">100</property>
+    <property name="skala">1.0</property>
+    <property name="keterangan">keterangan gambar</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">1125</property>
+        <property name="y">10</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_gambar" id="up">
+    <property name="caption">up</property>
+    <property name="source">png/up.png</property>
+    <property name="width">100</property>
+    <property name="height">100</property>
+    <property name="skala">1.0</property>
+    <property name="keterangan">keterangan gambar</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">1090</property>
+        <property name="y">10</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_gambar" id="back">
+    <property name="caption">back</property>
+    <property name="source">png/back.png</property>
+    <property name="width">100</property>
+    <property name="height">100</property>
+    <property name="skala">1.0</property>
+    <property name="keterangan">keterangan gambar</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">1055</property>
+        <property name="y">10</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="judul">
+    <property name="isi_teks">SWD-1</property>
+    <property name="size">30</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">551</property>
+        <property name="y">35</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_kotak" id="box_home">
+    <property name="caption">home</property>
+    <property name="width">30</property>
+    <property name="height">30</property>
+    <property name="link">index.xml</property>
+    <property name="link_caption">home</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">1160</property>
+        <property name="y">10</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">0</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">0</property>
+      </object>
+      <object struct="color_rgba" id="warna_hover">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_select">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_kotak" id="box_next">
+    <property name="caption">next</property>
+    <property name="width">30</property>
+    <property name="height">30</property>
+    <property name="link">SWD-2.xml</property>
+    <property name="link_caption">next</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">1125</property>
+        <property name="y">10</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">0</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">0</property>
+      </object>
+      <object struct="color_rgba" id="warna_hover">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_select">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_kotak" id="box_up">
+    <property name="caption">up</property>
+    <property name="width">30</property>
+    <property name="height">30</property>
+    <property name="link">index.xml</property>
+    <property name="link_caption">up</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">1090</property>
+        <property name="y">10</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">0</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">0</property>
+      </object>
+      <object struct="color_rgba" id="warna_hover">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_select">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_kotak" id="box_back">
+    <property name="caption">back</property>
+    <property name="width">30</property>
+    <property name="height">30</property>
+    <property name="link">SWD-3.xml</property>
+    <property name="link_caption">back</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">1055</property>
+        <property name="y">10</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">0</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">0</property>
+      </object>
+      <object struct="color_rgba" id="warna_hover">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_select">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_gambar" id="Engine">
+    <property name="caption">Engine</property>
+    <property name="source">png/engine.png</property>
+    <property name="width">100</property>
+    <property name="height">100</property>
+    <property name="skala">1.0</property>
+    <property name="keterangan">keterangan gambar</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">400</property>
+        <property name="y">230</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks_aktif" id="jw-in-T">
+    <property name="id_titik_data">245</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <property name="caption">teks aktif</property>
+    <property name="range_min">0</property>
+    <property name="range_max">100</property>
+    <property name="alarm_min_min">10</property>
+    <property name="alarm_min">20</property>
+    <property name="alarm_max">80</property>
+    <property name="alarm_max_max">90</property>
+    <property name="alarm_min_min_enable">1</property>
+    <property name="alarm_min_enable">1</property>
+    <property name="alarm_max_enable">1</property>
+    <property name="alarm_max_max_enable">1</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">162</property>
+        <property name="y">155</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">250</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max">
+        <property name="r">255</property>
+        <property name="g">255</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max_max">
+        <property name="r">250</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_oor">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks_aktif" id="jw-in-P">
+    <property name="id_titik_data">244</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <property name="caption">teks aktif</property>
+    <property name="range_min">0</property>
+    <property name="range_max">100</property>
+    <property name="alarm_min_min">10</property>
+    <property name="alarm_min">20</property>
+    <property name="alarm_max">80</property>
+    <property name="alarm_max_max">90</property>
+    <property name="alarm_min_min_enable">1</property>
+    <property name="alarm_min_enable">1</property>
+    <property name="alarm_max_enable">1</property>
+    <property name="alarm_max_max_enable">1</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">162</property>
+        <property name="y">185</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">250</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max">
+        <property name="r">255</property>
+        <property name="g">255</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max_max">
+        <property name="r">250</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_oor">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_kotak" id="box jw-in-T">
+    <property name="caption">view chart SWD-1</property>
+    <property name="width">55</property>
+    <property name="height">18</property>
+    <property name="link">chart-SWD-1-jw.xml</property>
+    <property name="link_caption">view SWD-1 chart</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">160</property>
+        <property name="y">140</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">255</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_hover">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_select">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_kotak" id="box jw-in-P">
+    <property name="caption">view chart jwip SWD-1</property>
+    <property name="width">55</property>
+    <property name="height">18</property>
+    <property name="link">chart-SWD-1-jw.xml</property>
+    <property name="link_caption">view SWD-2 chart</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">160</property>
+        <property name="y">170</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">255</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_hover">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_select">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_kotak" id="box lo-in-T">
+    <property name="caption">view chart jwip SWD-1</property>
+    <property name="width">55</property>
+    <property name="height">18</property>
+    <property name="link">chart-SWD-1-lo.xml</property>
+    <property name="link_caption">view SWD-2 chart</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">110</property>
+        <property name="y">260</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">255</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_hover">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_select">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_kotak" id="box lo-in-P">
+    <property name="caption">view chart jwip SWD-1</property>
+    <property name="width">55</property>
+    <property name="height">18</property>
+    <property name="link">chart-SWD-1-lo.xml</property>
+    <property name="link_caption">view SWD-2 chart</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">110</property>
+        <property name="y">290</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">255</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_hover">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_select">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_kotak" id="box ca-in-T">
+    <property name="caption">view chart jwip SWD-1</property>
+    <property name="width">55</property>
+    <property name="height">18</property>
+    <property name="link">chart-SWD-1-ca.xml</property>
+    <property name="link_caption">view SWD-2 chart</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">140</property>
+        <property name="y">500</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">255</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_hover">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_select">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_kotak" id="box ca-in-P">
+    <property name="caption">view chart jwip SWD-1</property>
+    <property name="width">55</property>
+    <property name="height">18</property>
+    <property name="link">chart-SWD-1-ca.xml</property>
+    <property name="link_caption">view SWD-2 chart</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">140</property>
+        <property name="y">530</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">255</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_hover">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_select">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_gambar" id="input jw">
+    <property name="caption">input jw</property>
+    <property name="source">png/inoutleft.png</property>
+    <property name="width">100</property>
+    <property name="height">100</property>
+    <property name="skala">1.0</property>
+    <property name="keterangan">keterangan gambar</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">50</property>
+        <property name="y">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="jw-in">
+    <property name="caption">jw-in</property>
+    <property name="width">12</property>
+    <property name="points_count">3</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">200</property>
+        <property name="b">50</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">100</property>
+        <property name="y">113</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">420</property>
+        <property name="y">113</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">420</property>
+        <property name="y">230</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="jw-in">
+    <property name="isi_teks">jacket water inlet</property>
+    <property name="size">12</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">58</property>
+        <property name="y">117</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_gambar" id="output jw">
+    <property name="caption">output jw</property>
+    <property name="source">png/inoutleft.png</property>
+    <property name="width">100</property>
+    <property name="height">100</property>
+    <property name="skala">1.0</property>
+    <property name="keterangan">keterangan gambar</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">700</property>
+        <property name="y">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="jw-out">
+    <property name="caption">jw-out</property>
+    <property name="width">12</property>
+    <property name="points_count">3</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">200</property>
+        <property name="b">50</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">480</property>
+        <property name="y">230</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">480</property>
+        <property name="y">113</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">730</property>
+        <property name="y">113</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="jw-out">
+    <property name="isi_teks">jacket water outlet</property>
+    <property name="size">12</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">710</property>
+        <property name="y">117</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_gauge_dial" id="RPM dial">
+    <property name="id_titik_data">260</property>
+    <property name="caption">RPM</property>
+    <property name="width">200</property>
+    <property name="height">200</property>
+    <property name="show_text">1</property>
+    <property name="show_caption">1</property>
+    <property name="auto_alarm_range">1</property>
+    <property name="range_min">0</property>
+    <property name="range_max">100</property>
+    <property name="alarm_min_min">10</property>
+    <property name="alarm_min">20</property>
+    <property name="alarm_max">80</property>
+    <property name="alarm_max_max">90</property>
+    <property name="alarm_min_min_enable">1</property>
+    <property name="alarm_min_enable">1</property>
+    <property name="alarm_max_enable">1</property>
+    <property name="alarm_max_max_enable">1</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">930</property>
+        <property name="y">100</property>
+      </object>
+      <object struct="color_rgba" id="warna">
+        <property name="r">100</property>
+        <property name="g">200</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min">
+        <property name="r">150</property>
+        <property name="g">150</property>
+        <property name="b">150</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max">
+        <property name="r">255</property>
+        <property name="g">200</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max_max">
+        <property name="r">250</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_oor">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_gauge_dial" id="KWH dial">
+    <property name="id_titik_data">271</property>
+    <property name="caption">KWH</property>
+    <property name="width">130</property>
+    <property name="height">130</property>
+    <property name="show_text">1</property>
+    <property name="show_caption">1</property>
+    <property name="auto_alarm_range">1</property>
+    <property name="range_min">0</property>
+    <property name="range_max">100</property>
+    <property name="alarm_min_min">20</property>
+    <property name="alarm_min">30</property>
+    <property name="alarm_max">80</property>
+    <property name="alarm_max_max">90</property>
+    <property name="alarm_min_min_enable">1</property>
+    <property name="alarm_min_enable">1</property>
+    <property name="alarm_max_enable">1</property>
+    <property name="alarm_max_max_enable">1</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">890</property>
+        <property name="y">310</property>
+      </object>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">250</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min">
+        <property name="r">150</property>
+        <property name="g">150</property>
+        <property name="b">150</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max">
+        <property name="r">255</property>
+        <property name="g">255</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max_max">
+        <property name="r">250</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_oor">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_gauge_dial" id="FLOW dial">
+    <property name="id_titik_data">276</property>
+    <property name="caption">L/MIN</property>
+    <property name="width">130</property>
+    <property name="height">130</property>
+    <property name="show_text">1</property>
+    <property name="show_caption">1</property>
+    <property name="auto_alarm_range">1</property>
+    <property name="range_min">0</property>
+    <property name="range_max">200</property>
+    <property name="alarm_min_min">10</property>
+    <property name="alarm_min">50</property>
+    <property name="alarm_max">150</property>
+    <property name="alarm_max_max">180</property>
+    <property name="alarm_min_min_enable">1</property>
+    <property name="alarm_min_enable">1</property>
+    <property name="alarm_max_enable">1</property>
+    <property name="alarm_max_max_enable">1</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">1040</property>
+        <property name="y">310</property>
+      </object>
+      <object struct="color_rgba" id="warna">
+        <property name="r">100</property>
+        <property name="g">200</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min">
+        <property name="r">150</property>
+        <property name="g">150</property>
+        <property name="b">150</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max">
+        <property name="r">255</property>
+        <property name="g">200</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max_max">
+        <property name="r">250</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_oor">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="jw-in-T satuan">
+    <property name="isi_teks">DEG C</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">220</property>
+        <property name="y">155</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="jw-in-P satuan">
+    <property name="isi_teks">BAR</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">220</property>
+        <property name="y">185</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="lo-in-T satuan">
+    <property name="isi_teks">DEG C</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">170</property>
+        <property name="y">275</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="lo-in-P satuan">
+    <property name="isi_teks">BAR</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">170</property>
+        <property name="y">305</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="ca-in-T satuan">
+    <property name="isi_teks">DEG C</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">200</property>
+        <property name="y">515</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="ca-in-P satuan">
+    <property name="isi_teks">BAR</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">200</property>
+        <property name="y">545</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_kotak" id="box jw-out-T">
+    <property name="caption">JWOT</property>
+    <property name="width">55</property>
+    <property name="height">18</property>
+    <property name="link">chart-SWD-1-jw.xml</property>
+    <property name="link_caption">home</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">625</property>
+        <property name="y">140</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">255</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_hover">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_select">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_kotak" id="box jw-out-P">
+    <property name="caption">JWOP</property>
+    <property name="width">55</property>
+    <property name="height">18</property>
+    <property name="link">chart-SWD-1-jw.xml</property>
+    <property name="link_caption">home</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">625</property>
+        <property name="y">170</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">255</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_hover">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_select">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="line jw-in-T">
+    <property name="caption">line jw-in-T</property>
+    <property name="width">1</property>
+    <property name="points_count">3</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">300</property>
+        <property name="y">113</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">300</property>
+        <property name="y">150</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">275</property>
+        <property name="y">150</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="line jw-in-P">
+    <property name="caption">line jw-in-P</property>
+    <property name="width">1</property>
+    <property name="points_count">3</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">300</property>
+        <property name="y">150</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">300</property>
+        <property name="y">180</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">260</property>
+        <property name="y">180</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="line jw-out-T">
+    <property name="caption">line jw-out-T</property>
+    <property name="width">1</property>
+    <property name="points_count">3</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">600</property>
+        <property name="y">113</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">600</property>
+        <property name="y">150</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">620</property>
+        <property name="y">150</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="line jw-out-P">
+    <property name="caption">line jw-out-P</property>
+    <property name="width">1</property>
+    <property name="points_count">3</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">600</property>
+        <property name="y">150</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">600</property>
+        <property name="y">180</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">620</property>
+        <property name="y">180</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="jw-out-T satuan">
+    <property name="isi_teks">DEG C</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">685</property>
+        <property name="y">155</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="jw-out-P satuan">
+    <property name="isi_teks">BAR</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">685</property>
+        <property name="y">185</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="lo-in">
+    <property name="caption">lo-in</property>
+    <property name="width">12</property>
+    <property name="points_count">4</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">255</property>
+        <property name="g">200</property>
+        <property name="b">50</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">150</property>
+        <property name="y">225</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">300</property>
+        <property name="y">225</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">300</property>
+        <property name="y">275</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">410</property>
+        <property name="y">275</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="lo-out">
+    <property name="caption">lo-out</property>
+    <property name="width">12</property>
+    <property name="points_count">4</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">255</property>
+        <property name="g">200</property>
+        <property name="b">50</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">490</property>
+        <property name="y">275</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">600</property>
+        <property name="y">275</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">600</property>
+        <property name="y">225</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">750</property>
+        <property name="y">225</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_gambar" id="input lo">
+    <property name="caption">input lo</property>
+    <property name="source">png/inoutleft.png</property>
+    <property name="width">100</property>
+    <property name="height">100</property>
+    <property name="skala">1.0</property>
+    <property name="keterangan">keterangan gambar</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">50</property>
+        <property name="y">212</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_gambar" id="output lo">
+    <property name="caption">output lo</property>
+    <property name="source">png/inoutleft.png</property>
+    <property name="width">100</property>
+    <property name="height">100</property>
+    <property name="skala">1.0</property>
+    <property name="keterangan">keterangan gambar</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">700</property>
+        <property name="y">212</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="lo-in">
+    <property name="isi_teks">lube oil inlet</property>
+    <property name="size">12</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">58</property>
+        <property name="y">229</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="lo-out">
+    <property name="isi_teks">lube oil outlet</property>
+    <property name="size">12</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">710</property>
+        <property name="y">229</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_gambar" id="input ca">
+    <property name="caption">input ca</property>
+    <property name="source">png/inoutleft.png</property>
+    <property name="width">100</property>
+    <property name="height">100</property>
+    <property name="skala">1.0</property>
+    <property name="keterangan">keterangan gambar</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">50</property>
+        <property name="y">450</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_gambar" id="output ca">
+    <property name="caption">output ca</property>
+    <property name="source">png/inoutleft.png</property>
+    <property name="width">100</property>
+    <property name="height">100</property>
+    <property name="skala">1.0</property>
+    <property name="keterangan">keterangan gambar</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">700</property>
+        <property name="y">450</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="ca-in">
+    <property name="caption">ca-in</property>
+    <property name="width">12</property>
+    <property name="points_count">4</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">200</property>
+        <property name="b">200</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">150</property>
+        <property name="y">463</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">300</property>
+        <property name="y">463</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">300</property>
+        <property name="y">325</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">410</property>
+        <property name="y">325</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="ca-out">
+    <property name="caption">ca-out</property>
+    <property name="width">12</property>
+    <property name="points_count">4</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">200</property>
+        <property name="b">200</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">480</property>
+        <property name="y">325</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">600</property>
+        <property name="y">325</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">600</property>
+        <property name="y">463</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">710</property>
+        <property name="y">463</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="ca-in">
+    <property name="isi_teks">charge air inlet</property>
+    <property name="size">12</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">58</property>
+        <property name="y">467</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks" id="ca-out">
+    <property name="isi_teks">exhaust air</property>
+    <property name="size">12</property>
+    <property name="font">Arial</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">710</property>
+        <property name="y">467</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks_aktif" id="jw-out-T">
+    <property name="id_titik_data">247</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <property name="caption">teks aktif</property>
+    <property name="range_min">0</property>
+    <property name="range_max">100</property>
+    <property name="alarm_min_min">10</property>
+    <property name="alarm_min">20</property>
+    <property name="alarm_max">80</property>
+    <property name="alarm_max_max">90</property>
+    <property name="alarm_min_min_enable">1</property>
+    <property name="alarm_min_enable">1</property>
+    <property name="alarm_max_enable">1</property>
+    <property name="alarm_max_max_enable">1</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">627</property>
+        <property name="y">155</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">250</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max">
+        <property name="r">255</property>
+        <property name="g">255</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max_max">
+        <property name="r">250</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_oor">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks_aktif" id="jw-out-P">
+    <property name="id_titik_data">246</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <property name="caption">teks aktif</property>
+    <property name="range_min">0</property>
+    <property name="range_max">100</property>
+    <property name="alarm_min_min">10</property>
+    <property name="alarm_min">20</property>
+    <property name="alarm_max">80</property>
+    <property name="alarm_max_max">90</property>
+    <property name="alarm_min_min_enable">1</property>
+    <property name="alarm_min_enable">1</property>
+    <property name="alarm_max_enable">1</property>
+    <property name="alarm_max_max_enable">1</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">627</property>
+        <property name="y">185</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">250</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max">
+        <property name="r">255</property>
+        <property name="g">255</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max_max">
+        <property name="r">250</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_oor">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks_aktif" id="lo-in-T">
+    <property name="id_titik_data">251</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <property name="caption">teks aktif</property>
+    <property name="range_min">0</property>
+    <property name="range_max">100</property>
+    <property name="alarm_min_min">10</property>
+    <property name="alarm_min">20</property>
+    <property name="alarm_max">80</property>
+    <property name="alarm_max_max">90</property>
+    <property name="alarm_min_min_enable">1</property>
+    <property name="alarm_min_enable">1</property>
+    <property name="alarm_max_enable">1</property>
+    <property name="alarm_max_max_enable">1</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">112</property>
+        <property name="y">275</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">250</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max">
+        <property name="r">255</property>
+        <property name="g">255</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max_max">
+        <property name="r">250</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_oor">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks_aktif" id="lo-in-P">
+    <property name="id_titik_data">250</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <property name="caption">teks aktif</property>
+    <property name="range_min">0</property>
+    <property name="range_max">100</property>
+    <property name="alarm_min_min">10</property>
+    <property name="alarm_min">20</property>
+    <property name="alarm_max">80</property>
+    <property name="alarm_max_max">90</property>
+    <property name="alarm_min_min_enable">1</property>
+    <property name="alarm_min_enable">1</property>
+    <property name="alarm_max_enable">1</property>
+    <property name="alarm_max_max_enable">1</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">112</property>
+        <property name="y">305</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">250</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max">
+        <property name="r">255</property>
+        <property name="g">255</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max_max">
+        <property name="r">250</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_oor">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks_aktif" id="ca-in-T">
+    <property name="id_titik_data">248</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <property name="caption">teks aktif</property>
+    <property name="range_min">0</property>
+    <property name="range_max">100</property>
+    <property name="alarm_min_min">10</property>
+    <property name="alarm_min">20</property>
+    <property name="alarm_max">80</property>
+    <property name="alarm_max_max">90</property>
+    <property name="alarm_min_min_enable">1</property>
+    <property name="alarm_min_enable">1</property>
+    <property name="alarm_max_enable">1</property>
+    <property name="alarm_max_max_enable">1</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">142</property>
+        <property name="y">515</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">250</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max">
+        <property name="r">255</property>
+        <property name="g">255</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max_max">
+        <property name="r">250</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_oor">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_teks_aktif" id="ca-in-P">
+    <property name="id_titik_data">249</property>
+    <property name="size">16</property>
+    <property name="font">Arial</property>
+    <property name="caption">teks aktif</property>
+    <property name="range_min">0</property>
+    <property name="range_max">100</property>
+    <property name="alarm_min_min">10</property>
+    <property name="alarm_min">20</property>
+    <property name="alarm_max">80</property>
+    <property name="alarm_max_max">90</property>
+    <property name="alarm_min_min_enable">1</property>
+    <property name="alarm_min_enable">1</property>
+    <property name="alarm_max_enable">1</property>
+    <property name="alarm_max_max_enable">1</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">142</property>
+        <property name="y">545</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">250</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_min">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max">
+        <property name="r">255</property>
+        <property name="g">255</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_max_max">
+        <property name="r">250</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_oor">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="line lo-in-T">
+    <property name="caption">new_garis#14</property>
+    <property name="width">1</property>
+    <property name="points_count">2</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">227</property>
+        <property name="y">268</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">300</property>
+        <property name="y">268</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="line lo-in-P">
+    <property name="caption">line lo-in-T</property>
+    <property name="width">1</property>
+    <property name="points_count">3</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">210</property>
+        <property name="y">298</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">250</property>
+        <property name="y">298</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">250</property>
+        <property name="y">268</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="line ca-in-T">
+    <property name="caption">line ca-in-T</property>
+    <property name="width">1</property>
+    <property name="points_count">3</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">255</property>
+        <property name="y">508</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">300</property>
+        <property name="y">508</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">300</property>
+        <property name="y">460</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_garis" id="line ca-in-P">
+    <property name="caption">line ca-in-P</property>
+    <property name="width">1</property>
+    <property name="points_count">3</property>
+    <child>
+      <object struct="color_rgba" id="warna">
+        <property name="r">0</property>
+        <property name="g">0</property>
+        <property name="b">0</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="obj_titik" id="titik#1">
+        <property name="x">240</property>
+        <property name="y">538</property>
+      </object>
+      <object struct="obj_titik" id="titik#2">
+        <property name="x">300</property>
+        <property name="y">538</property>
+      </object>
+      <object struct="obj_titik" id="titik#3">
+        <property name="x">300</property>
+        <property name="y">508</property>
+      </object>
+      <object struct="obj_titik" id="titik#4">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+      <object struct="obj_titik" id="titik#5">
+        <property name="x">0</property>
+        <property name="y">0</property>
+      </object>
+    </child>
+  </object>
+  <object struct="obj_kotak" id="box rpm-kwh-flow">
+    <property name="caption">box rpm-kwh-flow</property>
+    <property name="width">280</property>
+    <property name="height">340</property>
+    <property name="link">chart-SWD-1.xml</property>
+    <property name="link_caption">home</property>
+    <child>
+      <object struct="obj_titik" id="posisi">
+        <property name="x">890</property>
+        <property name="y">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_outline">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">0</property>
+      </object>
+      <object struct="color_rgba" id="warna_fill">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">0</property>
+      </object>
+      <object struct="color_rgba" id="warna_hover">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+      <object struct="color_rgba" id="warna_select">
+        <property name="r">100</property>
+        <property name="g">100</property>
+        <property name="b">100</property>
+        <property name="a">100</property>
+      </object>
+    </child>
+  </object>
+</monita>
